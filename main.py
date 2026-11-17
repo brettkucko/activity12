@@ -153,4 +153,4 @@ def read_protected_data(current_user: str = Depends(get_current_user)):
 
 @app.get("/hello")
 def hello():
-    return {"message": "Hello from FastAPI"}rotected data!"}
+    return {"message": "Hello from FastAPI protected data!"}
